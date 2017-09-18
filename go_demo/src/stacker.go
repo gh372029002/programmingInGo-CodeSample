@@ -12,6 +12,10 @@ func main() {
 	haystack.Push(-15)
 	haystack.Push([]string{"pin", "clip", "needle"})
 	haystack.Push(81.52)
+	top, err := haystack.Pop()
+	fmt.Println(top)
+	fmt.Println(err)
+	return
 	for {
 		item, err := haystack.Pop()
 		if err != nil {
