@@ -38,4 +38,5 @@ func main() {
 	for _, name := range strings.SplitAfterN(splitStr, "-", 6) {
 		fmt.Printf("%s|", name)
 	}
+
 }

@@ -16,6 +16,7 @@ const (
 func main() {
 	flag := Active | Send
 	fmt.Println(BitFlag(0), Active, Send, flag, Receive, flag|Receive)
+	fmt.Printf("%-5t %-5t %.*f")
 }
 func (flag BitFlag) String() string {
 	var flags []string
