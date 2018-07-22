@@ -52,4 +52,5 @@ func main() {
 
 	phone = new(IPhone)
 	phone.call()
+
 }

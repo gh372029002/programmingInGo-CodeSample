@@ -11,6 +11,7 @@ func Factorial(n uint64) (result uint64) {
 	return 1
 }
 
+func
 func main() {
 	var i uint64 = 3
 	fmt.Printf("%d 的阶乘是 %d\n", i, Factorial(i))
